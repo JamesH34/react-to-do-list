@@ -5,15 +5,21 @@
   text-align: center;
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-
-#listOfStuff li {
+/* remove bulletpoints */
+/* create a box to contain the list */
+#listOfStuff {
+  background-color: rgba(166, 100, 62, 0.25); 
+  border-radius: 20px; 
+  padding: 20px; 
   list-style-type: none;
+}
+
+
+/* add background image */
+body {
+  height: 100vh;
+  background-image: url('https://codetheweb.blog/assets/img/posts/css-advanced-background-images/mountains.jpg');
+  background-size: 2000px;
+  background-position-x: center; 
+  background-position-y: center; 
 }
